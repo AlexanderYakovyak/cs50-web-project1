@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+input {
+    display:flex;
+}
+
+
+textarea {
+    height: 30vh;
+    width: 80%;
+    resize: none;
+    display: flex;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #808080;
+    height: 100vh;
+    padding: 20px;
+}
+
+
+.sidebar h2 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color:#003366;
+}
+
+.sidebar div {
+    margin: 10px 0;
+}
+
+.sidebar div a {
+    padding: 10px 10px;
+    font-size:18px;
+    color:#fff;
+    font-weight:bold;
+}
+
+.sidebar div a:hover {
+    text-decoration:none;
+    color: #003366;
+}
+
+.sidebar div a:hover:before {
+    content: '';
+    display: block;
+    background: url('../media/vertical_bar.svg');
+    position: absolute;
+    background-size: contain;
+    width:4px;
+    height:20px;
+    margin-top:2px;
+}
+
